@@ -1,0 +1,55 @@
+{
+  "name": "jagx-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "The unlimited WhatsApp most powerful bot with 50+ features",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest",
+    "monitor": "pm2 monitor"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "automation",
+    "features"
+  ],
+  "author": "Jag World",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.5.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jimp": "^0.16.3",
+    "node-cache": "^5.1.2",
+    "pino": "^8.16.2",
+    "pino-pretty": "^10.2.3",
+    "qrcode-terminal": "^0.12.0",
+    "qrcode": "^1.5.3",
+    "ffmpeg-static": "^5.2.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "tesseract.js": "^4.1.1",
+    "translate-google": "^1.0.0",
+    "node-fetch": "^2.7.0",
+    "cheerio": "^1.0.0-rc.12",
+    "mysql2": "^3.6.5",
+    "mongoose": "^8.0.0",
+    "cron": "^3.0.2",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.45",
+    "uuid": "^9.0.1",
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0",
+    "pm2": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
